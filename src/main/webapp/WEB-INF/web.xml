@@ -35,4 +35,33 @@
     <url-pattern>/excluirproduto</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>PessoaController</servlet-name>
+    <servlet-class>br.edu.unoesc.controller.PessoaController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ListaPessoaController</servlet-name>
+    <servlet-class>br.edu.unoesc.controller.ListaPessoaController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ExcluirPessoaController</servlet-name>
+    <servlet-class>br.edu.unoesc.controller.ExcluirPessoaController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>PessoaController</servlet-name>
+    <url-pattern>/pessoa</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ListaPessoaController</servlet-name>
+    <url-pattern>/listarpessoas</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ExcluirPessoaController</servlet-name>
+    <url-pattern>/excluirpessoa</url-pattern>
+  </servlet-mapping>
 </web-app>

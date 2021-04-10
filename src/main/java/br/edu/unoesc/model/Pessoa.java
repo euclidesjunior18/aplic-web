@@ -4,6 +4,15 @@ public class Pessoa {
     private Integer cpf;
     private String nome;
     private char sexo;
+    private String datanasc;
+
+    public String getDatanasc() {
+        return datanasc;
+    }
+
+    public void setDatanasc(String datanasc) {
+        this.datanasc = datanasc;
+    }
 
     public Integer getCpf() {
         return cpf;
